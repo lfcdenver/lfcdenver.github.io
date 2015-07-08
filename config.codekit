@@ -173,6 +173,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/assets\/lfcdenver-brand-header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6115,
+		"inputAbbreviatedPath": "\/_site\/assets\/lfcdenver-brand-header.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/lfcdenver-brand-header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/blog.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2414,6 +2425,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/lfcdenver-brand-header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6115,
+		"inputAbbreviatedPath": "\/assets\/lfcdenver-brand-header.png",
+		"outputAbbreviatedPath": "\/assets\/lfcdenver-brand-header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/blog.html": {
 		"fileType": 8192,
