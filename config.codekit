@@ -104,24 +104,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_site\/2015\/06\/25\/blog-4.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/2015\/06\/25\/blog-4.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/2015\/06\/25\/hello-carole.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/2015\/06\/25\/hello-carole.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/about\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2314,15 +2296,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/_site\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
@@ -5889,13 +5862,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/css\/main.scss",
 		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
@@ -5953,7 +5935,7 @@
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoSyncProjectSettingsFile": 1,
-	"browserRefreshDelay": 0,
+	"browserRefreshDelay": 0.25,
 	"coffeeAutoOutputPathEnabled": 1,
 	"coffeeAutoOutputPathFilenamePattern": "*.js",
 	"coffeeAutoOutputPathRelativePath": "",
@@ -6795,7 +6777,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "_site"
 	},
 "settingsFileVersion": "2"
 }

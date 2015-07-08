@@ -6680,9 +6680,6 @@ button.close {
     display: none !important;
   }
 }
-a:visited {
-  color: #dc0714;
-}
 .crimson {
   font-family: "Crimson Text", "Times New Roman", Times, serif;
   font-weight: 600;

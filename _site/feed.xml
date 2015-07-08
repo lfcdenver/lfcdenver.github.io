@@ -1,49 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chartophile</title>
-    <description>Chartophile.com Cartography | Web Mapping | Desktop GIS
+    <title>LFC Denver</title>
+    <description>Official Liverpool FC Supporters Club
 </description>
-    <link>http://ebendennis.github.io/</link>
-    <atom:link href="http://ebendennis.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 25 Jun 2015 21:18:11 -0600</pubDate>
-    <lastBuildDate>Thu, 25 Jun 2015 21:18:11 -0600</lastBuildDate>
+    <link>http://lfcdenver.github.io/</link>
+    <atom:link href="http://lfcdenver.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Jul 2015 11:18:12 -0600</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2015 11:18:12 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-        <title>Blog 4</title>
-        <description>&lt;h2 id=&quot;another-post&quot;&gt;Another Post&lt;/h2&gt;
-
-&lt;p&gt;Here’s another post.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;My wife thinks I’m a nerd.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And a new paragraph.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 25 Jun 2015 19:09:00 -0600</pubDate>
-        <link>http://ebendennis.github.io/2015/06/25/blog-4.html</link>
-        <guid isPermaLink="true">http://ebendennis.github.io/2015/06/25/blog-4.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hello Carole</title>
-        <description>&lt;h2 id=&quot;hello-carole&quot;&gt;Hello Carole&lt;/h2&gt;
-
-&lt;p&gt;This is where content goes!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 25 Jun 2015 15:32:00 -0600</pubDate>
-        <link>http://ebendennis.github.io/2015/06/25/hello-carole.html</link>
-        <guid isPermaLink="true">http://ebendennis.github.io/2015/06/25/hello-carole.html</guid>
-        
-        <category>icon</category>
-        
-        
-      </item>
     
       <item>
         <title>Testing Prose</title>
@@ -52,8 +17,8 @@
 &lt;p&gt;How’s this work for you?&lt;/p&gt;
 </description>
         <pubDate>Thu, 25 Jun 2015 06:43:15 -0600</pubDate>
-        <link>http://ebendennis.github.io/jekyll/update/2015/06/25/prose-io.html</link>
-        <guid isPermaLink="true">http://ebendennis.github.io/jekyll/update/2015/06/25/prose-io.html</guid>
+        <link>http://lfcdenver.github.io/jekyll/update/2015/06/25/prose-io.html</link>
+        <guid isPermaLink="true">http://lfcdenver.github.io/jekyll/update/2015/06/25/prose-io.html</guid>
         
         
         <category>jekyll</category>
@@ -80,8 +45,8 @@
 
 </description>
         <pubDate>Thu, 25 Jun 2015 06:43:14 -0600</pubDate>
-        <link>http://ebendennis.github.io/jekyll/update/2015/06/25/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://ebendennis.github.io/jekyll/update/2015/06/25/welcome-to-jekyll.html</guid>
+        <link>http://lfcdenver.github.io/jekyll/update/2015/06/25/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://lfcdenver.github.io/jekyll/update/2015/06/25/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>

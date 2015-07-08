@@ -56,48 +56,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_posts\/2015-06-25-blog-4.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2015-06-25-blog-4.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/_posts\/2015-06-25-blog-4.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/_posts\/2015-06-25-hello-carole.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2015-06-25-hello-carole.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/_posts\/2015-06-25-hello-carole.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
 	"\/_sass\/_base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -145,24 +103,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/_site\/2015\/06\/25\/blog-4.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/2015\/06\/25\/blog-4.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/2015\/06\/25\/hello-carole.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/2015\/06\/25\/hello-carole.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/about\/index.html": {
 		"fileType": 8192,
@@ -2357,15 +2297,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_site\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2446,7 +2377,7 @@
 		},
 	"\/app\/assets\/css\/theme.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/assets\/css\/theme.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2457,7 +2388,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 482937,
+		"initialSize": 1.57481e+06,
 		"inputAbbreviatedPath": "\/app\/assets\/img\/donald.jpg",
 		"outputAbbreviatedPath": "\/app\/assets\/img\/donald.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -3882,9 +3813,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/lib\/bootstrap\/less\/theme.less",
-		"outputAbbreviatedPath": "\/build\/lib\/bootstrap\/css\/theme.css",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/theme.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
@@ -5931,13 +5862,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/css\/main.scss",
 		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
@@ -5982,26 +5922,12 @@
 	],
 "lastSavedByUser": "Eben Dennis",
 "manualImportLinks": {
-	"\/build\/js\/app.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/build\/lib\/jquery\/jquery.min.js",
-			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
-			"position": 1,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "ebendennis.github.io",
+	"displayValue": "lfcdenver.github.io",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "pencil_gray"
+	"iconImageName": "brackets_orange"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
@@ -6009,7 +5935,7 @@
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoSyncProjectSettingsFile": 1,
-	"browserRefreshDelay": 0,
+	"browserRefreshDelay": 0.25,
 	"coffeeAutoOutputPathEnabled": 1,
 	"coffeeAutoOutputPathFilenamePattern": "*.js",
 	"coffeeAutoOutputPathRelativePath": "",
@@ -6851,7 +6777,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "_site"
 	},
 "settingsFileVersion": "2"
 }
