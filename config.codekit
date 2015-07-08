@@ -131,28 +131,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/app\/assets\/img\/donald.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.57481e+06,
-		"inputAbbreviatedPath": "\/_site\/app\/assets\/img\/donald.jpg",
-		"outputAbbreviatedPath": "\/_site\/app\/assets\/img\/donald.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/app\/assets\/img\/flood.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 382508,
-		"inputAbbreviatedPath": "\/_site\/app\/assets\/img\/flood.jpg",
-		"outputAbbreviatedPath": "\/_site\/app\/assets\/img\/flood.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/app\/assets\/img\/justice.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -160,6 +138,17 @@
 		"initialSize": 592171,
 		"inputAbbreviatedPath": "\/_site\/app\/assets\/img\/justice.jpg",
 		"outputAbbreviatedPath": "\/_site\/app\/assets\/img\/justice.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/app\/assets\/img\/OSC-Logos-Phase3-H_Denver.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 176800,
+		"inputAbbreviatedPath": "\/_site\/app\/assets\/img\/OSC-Logos-Phase3-H_Denver.png",
+		"outputAbbreviatedPath": "\/_site\/app\/assets\/img\/OSC-Logos-Phase3-H_Denver.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2384,28 +2373,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/app\/assets\/img\/donald.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.57481e+06,
-		"inputAbbreviatedPath": "\/app\/assets\/img\/donald.jpg",
-		"outputAbbreviatedPath": "\/app\/assets\/img\/donald.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/app\/assets\/img\/flood.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 382508,
-		"inputAbbreviatedPath": "\/app\/assets\/img\/flood.jpg",
-		"outputAbbreviatedPath": "\/app\/assets\/img\/flood.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/app\/assets\/img\/justice.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2413,6 +2380,17 @@
 		"initialSize": 592171,
 		"inputAbbreviatedPath": "\/app\/assets\/img\/justice.jpg",
 		"outputAbbreviatedPath": "\/app\/assets\/img\/justice.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/img\/OSC-Logos-Phase3-H_Denver.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129276,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/OSC-Logos-Phase3-H_Denver.png",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/OSC-Logos-Phase3-H_Denver.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
