@@ -161,6 +161,10 @@
 /**
  * Page content
  */
+ body {
+    margin-top: 50px;
+ }
+
 .page-content {
     padding: $spacing-unit 0;
 }
