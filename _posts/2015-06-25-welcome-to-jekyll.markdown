@@ -1,9 +1,13 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-06-25 12:43:14
+title: "Welcome to Jekyll!"
+date: 
+  - 2015-06-25T12:43:14.000Z
+  - "Thu Jun 25 2015 06:43:14 GMT-0600 (MDT)"
 categories: jekyll update
+published: false
 ---
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
