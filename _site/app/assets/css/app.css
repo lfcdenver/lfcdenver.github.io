@@ -6775,6 +6775,9 @@ body {
 .navbar-nav li a:hover:after {
   width: 100%;
 }
+.navbar-brand img {
+  height: 20px;
+}
 .navbar-brand:before,
 .navbar-brand:after {
   content: '';
