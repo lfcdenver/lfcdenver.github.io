@@ -2437,7 +2437,7 @@ body.is-menu-visible #menu {
       padding: 4em 4em 2em 4em ;
       width: 66.666666666%; }
       #main .post .content img {
-        width: 100%; }
+        max-width: 100%; }
     #main .post .sidebar {
       padding: 6em 0em 4em 0em ;
       width: 33.333333333%; }
@@ -2445,7 +2445,7 @@ body.is-menu-visible #menu {
         padding: 1em 1em 0.1em 1em ;
         border-left: dotted 1px rgba(50, 56, 63, 0.35); }
       #main .post .sidebar img {
-        width: 100%; }
+        max-width: 100%; }
     #main .post.alt {
       -moz-flex-direction: row-reverse;
       -webkit-flex-direction: row-reverse;
