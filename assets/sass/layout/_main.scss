@@ -283,7 +283,7 @@
 					overflow: hidden;
 
 					img {
-						margin-top: -8em;
+						margin-top: -4em;
 					}
 				}
 
@@ -299,7 +299,7 @@
 					overflow: hidden;
 
 					img {
-						margin-top: -8em;
+						margin-top: -4em;
 					}
 				}
 
@@ -336,7 +336,7 @@
 
 			.spotlight {
 				.content {
-					@include padding(3em, 1.5em);
+					@include padding(1em, 1.5em);
 
 					h2 {
 						&:after {
@@ -349,7 +349,7 @@
 
 			.post {
 				.content {
-					@include padding(3em, 1.5em);
+					@include padding(1em, 1.5em);
 
 					h2 {
 						&:after {

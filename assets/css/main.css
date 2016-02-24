@@ -2548,7 +2548,7 @@ body.is-menu-visible #menu {
         width: 100%;
         overflow: hidden; }
         #main .spotlight .image img {
-          margin-top: -8em; }
+          margin-top: -4em; }
       #main .spotlight .content {
         width: 100%; }
     #main .post {
@@ -2557,7 +2557,7 @@ body.is-menu-visible #menu {
         width: 100%;
         overflow: hidden; }
         #main .post .image img {
-          margin-top: -8em; }
+          margin-top: -4em; }
       #main .post .content {
         width: 100%; }
       #main .post .sidebar {
@@ -2573,12 +2573,12 @@ body.is-menu-visible #menu {
       #main .features .content .feature {
         padding: 3em 1.5em 1em 1.5em ; }
       #main .spotlight .content {
-        padding: 3em 1.5em 1em 1.5em ; }
+        padding: 1em 1.5em 0.1em 1.5em ; }
         #main .spotlight .content h2:after {
           margin-left: 0;
           margin-right: 0; }
       #main .post .content {
-        padding: 3em 1.5em 1em 1.5em ; }
+        padding: 1em 1.5em 0.1em 1.5em ; }
         #main .post .content h2:after {
           margin-left: 0;
           margin-right: 0; }
