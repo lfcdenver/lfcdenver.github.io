@@ -1,15 +1,60 @@
----
-layout: default
----
-<div class="post">
+<!DOCTYPE HTML>
+<!--
+	Slate by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+-->
+<html>
+	{% include head.html %}
+	<body>
+		{% include header.html %}
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+		<!-- Main -->
+			<div id="main">
+				<section id="content" class="post">
+					<div class="content">
+						<h2>{{page.title}}</h2>
+						<h5>{{ page.date | date_to_string }}</h5>
+					{{content}}
+					</div>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
 
-</div>
+					<!-- Sidebar -->
+						<div class="sidebar">
+							{% if page.next.url %}
+							<div class="next">
+								<h6>{{ page.next.date | date_to_string }}</h6>
+								<h3>{{page.next.title}}</h3>
+								<ul class="actions small">
+									<li><a href="{{page.next.url}}" class="button small">Next</a></li>
+								</ul>
+							</div>
+							{% endif %}
+							{% if page.previous.url %}
+							<div class="next">
+								<h6>{{ page.previous.date | date_to_string }}</h6>
+								<h3>{{page.previous.title}}</h3>
+								<ul class="actions small">
+									<li><a href="{{page.previous.url}}" class="button small">Previous</a></li>
+								</ul>
+							</div>
+							{% endif %}
+						</div> <!-- sidebar -->
+					</section>
+				</div> <!-- main -->
+
+
+		{% include footer.html %}
+
+		<script src="{{site.url}}/assets/js/jquery.min.js"></script>
+	  <script src="{{site.url}}/assets/js/jquery.dropotron.min.js"></script>
+	  <script src="{{site.url}}/assets/js/jquery.scrollgress.min.js"></script>
+	  <script src="{{site.url}}/assets/js/jquery.scrolly.min.js"></script>
+	  <script src="{{site.url}}/assets/js/jquery.slidertron.min.js"></script>
+	  <script src="{{site.url}}/assets/js/skel.min.js"></script>
+	  <script src="{{site.url}}/assets/js/util.js"></script>
+	  <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	  <script src="{{site.url}}/assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -14,11 +14,11 @@ markdown: kramdown
 # Prose settings
 prose:
   rooturl: '_posts'
-  siteurl: 'http://lfcdenver.github.io/blog/'
+  siteurl: 'http://lfcdenver.github.io/'
   relativeLinks: ''
-  media: 'media'
+  media: 'images'
   ignore:
-    - index.md
+    - index.html
     - _config.yml
     - /_layouts
     - /_includes
@@ -34,12 +34,12 @@ prose:
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
-            - name: "Maps"
-              value: "maps"
-            - name: "Icon"
-              value: "icon"
-            - name: "Other"
-              value: "other"
+            - name: "News"
+              value: "news"
+            - name: "Matchday"
+              value: "matchday"
+            - name: "Merch"
+              value: "merch"
       - name: "title"
         field:
           element: "text"
@@ -53,7 +53,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "page"
+          value: "post"
       - name: "permalink"
         field:
           element: "text"

@@ -1,97 +1,79 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+---
+layout: default
+title: LFC Denver
+---
+				<!-- Main -->
+					<div id="main">
 
-        <meta name="description" content="">
-        <meta name="keywords" content="">
+						<!-- Banner -->
+							<section id="banner">
+								<header>
+									<h2><img src={{site.url}}/images/lfcdenver-brand-white.png alt="LFC Denver"></h2>
+									<h6>Official Liverpool FC Supporters Club<br />
+									Denver, Colorado, USA</h6>
+								</header>
+								<footer>
+									<ul class="actions">
+										<li><a href="#one" class="button big scrolly">Get Started</a></li>
+									</ul>
+								</footer>
+							</section>
 
-        <title>LFC Denver</title>
+							<!-- One -->
+							<section id="one" class="features">
+								<header class="major">
+									<h2>Latest News</h2>
+								</header>
+								<div class="content">
+								{% for post in site.posts limit:3 %}
+									<section class="feature">
+										<span class="icon major fa-newspaper-o"></span>
+										<h3>{{post.title}}</h3>
+										<h6>{{ post.date | date_to_string }}</h6>
+										<p>{{post.excerpt}}</p>
+										<ul class="actions">
+											<li><a href="{{post.url}}" class="button">More</a></li>
+										</ul>
+									</section>
+								{% endfor %}
+								</div>
+							</section>
 
-        <link rel="stylesheet" media="screen" href="app/assets/css/app.css">
-    </head>
-    <body>
-      <!--	NAVBAR-->
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="http://www.lfcdenver.com" ><img src="assets/lfcdenver-brand-header.png" alt="LFC Denver"></a>
-        </div>
+						<!-- Two -->
+							<section id="two" class="spotlight">
+								<div class="image"><img src="{{site.url}}/images/olsc.png" alt="" /></div>
+								<div class="content">
+									<h2>About LFC Denver</h2>
+									<p>Formed in January 2011 as the Colorado Reds, LFC Denver became an Official Liverpool Supporters Club in 2013. Our goal is to provide local and visiting Liverpool FC fans an enjoyable and welcoming environment to come support our favorite football club.</p>
+								</div>
+							</section>
 
-      <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-2">
-          <ul class="nav navbar-nav h3">
-              <li><a href="#about">About</a></li>
-              <li><a href="blog.html">News</a></li>
-              <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                      <li><a href="mailto:info@lfcdenver.com?Subject=Contact"><i class="fa fa-at fa-fw" aria-hidden="true"></i><p>Email</p></a></li>
-                      <li><a href="https://www.twitter.com/LFCDenver" target="_blank"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i><p>Twitter</p></a></li>
-                      <li><a href="https://www.facebook.com/LFCDenver" target="_blank"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i><p>Facebook</p></a></li>
-                  </ul>
-              </li>
-          </ul>
-      </div>
-    </div>
-</nav>
+						<!-- Three -->
+							<section id="three" class="spotlight alt">
+								<div class="image"><img src="{{site.url}}/images/abbey.jpg" alt="" /></div>
+								<div class="content">
+									<h2>The Abbey Tavern</h2>
+									<p>LFC Denver's home pub since 2014, the Abbey Tavern is owned and run by Liverpool supporters and is open for every televised Liverpool match.</p>
+									<ul class="actions">
+										<li><a href="http://theabbeytaverndenver.com" target="blank" class="button big">More</a></li>
+									</ul>
+								</div>
+							</section>
 
-        <div class="container">
-            <div class="page-header">
-                <h1>LFC Denver</h1>
-                <p class="lead">Official Liverpool FC Supporters Club</p>
-            </div>
+						<!-- Four -->
+							<section id="four" class="spotlight">
+								<div class="image"><img src="{{site.url}}/images/lfc_denver_badge.png" alt="" /></div>
+								<div class="content">
+									<h2>News</h2>
+									<p>Catch up on all of the latest news and events from LFC Denver here.</p>
+									<ul class="actions">
+										<li><a href="{{site.url}}/news" class="button big">More</a></li>
+									</ul>
+								</div>
+							</section>
 
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 thumbnail">
-                  <a><img src="app/assets/img/OSC-Logos-Phase3-H_Denver.png" class="img-responsive">
-                    <div class='projectDescription'>
-                      <p class='projectCredits'>LFC OLSC</p>
-                      <p class='projectName'>About LFC Denver</p>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 thumbnail">
-                  <a><img src="app/assets/img/CoffinBox.jpg" class="img-responsive">
-                    <div class='projectDescription'>
-                      <p class='projectCredits'>The Abbey Tavern</p>
-                      <p class='projectName'>Matchdays</p>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 thumbnail">
-                  <a><img src="app/assets/img/justice.jpg" class="img-responsive">
-                    <div class='projectDescription'>
-                      <p class='projectCredits'>Upcoming Events</p>
-                      <p class='projectName'>News</p>
-                    </div>
-                  </a>
-                </div>
-            </div>
-
-        </div>
-<div class="container">
-
-		<div class="page-footer">
-				<p><i class="fa fa-copyright fa-fw" aria-hidden="true"></i>LFC Denver - 2015</p>
-		</div>
+					</div>
 
 
-</div>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
-<script src="app/assets/js/app.min.js"></script>
-
-<script>
-
-</script>
-    </body>
+	</body>
 </html>

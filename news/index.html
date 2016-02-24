@@ -1,0 +1,33 @@
+---
+layout: default
+title: LFC Denver News
+---
+
+<div id="main">
+
+  <!-- Content -->
+    <section id="content" class="default">
+      <header class="major">
+        <h2>News</h2>
+        <p>Catch up on news and events for LFC Denver here.</p>
+      </header>
+      <div class="content">
+
+        <ul class="post-list">
+          {% for post in site.posts %}
+            <li>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+              <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h2>
+              <p>{{post.excerpt}}</p>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+      </div>
+    </section>
+</div>

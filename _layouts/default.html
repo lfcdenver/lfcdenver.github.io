@@ -3,17 +3,29 @@
 
   {% include head.html %}
 
-  <body>
+  <body id="top">
+
+    <!-- Page Wrapper -->
+      <div id="page-wrapper">
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
         {{ content }}
-      </div>
-    </div>
 
     {% include footer.html %}
+
+    </div>
+
+<!-- Scripts -->
+  <script src="{{site.url}}/assets/js/jquery.min.js"></script>
+  <script src="{{site.url}}/assets/js/jquery.dropotron.min.js"></script>
+  <script src="{{site.url}}/assets/js/jquery.scrollgress.min.js"></script>
+  <script src="{{site.url}}/assets/js/jquery.scrolly.min.js"></script>
+  <script src="{{site.url}}/assets/js/jquery.slidertron.min.js"></script>
+  <script src="{{site.url}}/assets/js/skel.min.js"></script>
+  <script src="{{site.url}}/assets/js/util.js"></script>
+  <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="{{site.url}}/assets/js/main.js"></script>
 
   </body>
 
