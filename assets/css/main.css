@@ -2378,6 +2378,8 @@ body.is-menu-visible #menu {
     background-color: #32383f; }
     #main .default .content {
       padding: 4em 4em 2em 4em ; }
+      #main .default .content .post-list img {
+        max-width: 100%; }
   #main .features {
     background-color: #32383f; }
     #main .features .content {
