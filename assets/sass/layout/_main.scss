@@ -58,6 +58,8 @@
 			background-color: _palette(fg);
 			color: _palette(bg);
 
+			strong { color: _palette(bg);}
+
 			a {
 				@include vendor('transition', (
 					'border-bottom-color #{_duration(transition)} ease',

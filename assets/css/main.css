@@ -2410,6 +2410,8 @@ body.is-menu-visible #menu {
     display: flex;
     background-color: #ffffff;
     color: #32383f; }
+    #main .post strong {
+      color: #32383f; }
     #main .post a {
       -moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
       -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
