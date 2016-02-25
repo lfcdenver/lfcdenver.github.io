@@ -42,6 +42,10 @@
 					border-left-width: 1px;
 					border-top-width: 1px;
 
+					img {
+						max-width: 100%;
+					}
+
 					&:nth-child(-n + 3) {
 						border-top-width: 0;
 					}

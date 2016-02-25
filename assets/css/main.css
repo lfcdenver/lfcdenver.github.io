@@ -2399,6 +2399,8 @@ body.is-menu-visible #menu {
         border-color: #434b55;
         border-left-width: 1px;
         border-top-width: 1px; }
+        #main .features .content .feature img {
+          max-width: 100%; }
         #main .features .content .feature:nth-child(-n + 3) {
           border-top-width: 0; }
         #main .features .content .feature:nth-child(3n - 2) {
