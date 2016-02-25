@@ -1277,9 +1277,6 @@ body {
   @media screen and (max-width: 980px) {
     body {
       background-size: 100px 100px,				200% auto; } }
-  @media screen and (max-width: 736px) {
-    body {
-      background-image: none; } }
 
 /* Type */
 html {
