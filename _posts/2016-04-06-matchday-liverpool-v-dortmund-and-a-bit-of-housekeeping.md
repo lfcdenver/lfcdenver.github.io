@@ -3,9 +3,10 @@ layout: post
 tags: 
   - matchday
 date: "2016-04-06 18:08 -0600"
-published: false
+published: true
 title: "Matchday: Liverpool v Dortmund (and a bit of housekeeping)"
 ---
+
 
 #### Liverpool v Dortmund, Europa League Quarterfinal 1st Leg
 
